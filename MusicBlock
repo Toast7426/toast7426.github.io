@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset = "utf-8">
+    <title>横行霸道组</title>
+    <style>  
+        /* CSS样式设置 */  
+        body {  
+            /* 设置背景图片 */  
+            background-image: url('image/bg.jpg'); 
+            /* 背景图片不重复 */  
+            background-repeat: no-repeat;  
+            /* 背景图片覆盖整个页面 */  
+            background-size: cover;  
+            /* 背景图片固定，不随页面滚动 */  
+            background-attachment: fixed;  
+            /* 可选：设置背景颜色，以防图片未加载 */  
+            background-color: #f0ffff;  
+            /* 可选：确保页面高度足够以显示整个背景图片 */  
+            min-height: 100vh; /* vh是视窗高度的单位，100vh表示视窗高度的100% */  
+            margin: 0; /* 移除默认边距 */  
+            padding: 0; /* 移除默认内边距 */  
+        }  
+    </style>  
+</head>
+
+<body>
+    <h1>音乐盒</h1>
+    <p>MC</p>
+    <audio controls>
+        <source src="music/Cat-C418.mp3" type="audio/mpeg">
+    </audio>
+    <p>原</p>
+    <audio controls>
+        <source src="music/Genshin_Impact_Main_Theme.mp3" type="audio/mpeg">
+    </audio>
+    <p>PvZ</p>
+    <audio controls>
+        <source src="music/Graze_the_Roof.mp3" type="audio/mpeg">
+    </audio>
+    <p>鸽</p>
+    <audio controls>
+        <source src="music/Grimheart.mp3" type="audio/mpeg">
+    </audio>
+    <p>东方</p>
+    <audio controls>
+        <source src="music/东方.mp3" type="audio/mpeg">
+    </audio>
+    <p>滚天</p>
+    <audio controls>
+        <source src="music/庙会.mp3" type="audio/mpeg">
+    </audio>
+    <p>方舟</p>
+    <audio controls>
+        <source src="music/生命流.mp3" type="audio/mpeg">
+    </audio>
+    
+</body>
+</html>
